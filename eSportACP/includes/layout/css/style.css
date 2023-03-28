@@ -1,0 +1,538 @@
+/* global */
+
+.clearfloats {
+    clear: both;    
+}
+
+.card-title {
+    text-align: right;
+}
+
+table {
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    min-height: calc(100vh - 180px);
+}
+
+.alert {
+    position: fixed !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 500px;
+    top: 100px;
+    text-align: center;
+    z-index: 999;
+}
+
+.page-wrapper {
+    overflow: auto;
+}
+
+/* navbar */
+
+.alerts {
+    padding: 8px 18px 0 18px;
+}
+
+.navbar-brand {
+    line-height: 1 !important;
+}
+
+/* topbar */
+
+.topbar .lead {
+    margin-bottom: 0;
+}
+
+/* dashboard */ 
+
+.statCount {
+    margin: 0;
+    color: #ccc;
+}
+
+.text-white {
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding-bottom: 0.56rem !important;
+}
+
+
+/* news */
+
+.news-body {
+    text-align: right;
+    margin-right: 8px;
+}
+
+
+/* membersCount Table */
+
+.membersCount {
+    text-align: right;
+}
+
+.membersActivation {
+    text-align: right;
+}
+
+.settings {
+    display: inline-flex;
+}
+
+.settings a, .settings button {
+    margin: 0 2px 0 2px;
+}
+
+/* membersActiv */ 
+
+.profiles .modal {
+    direction: rtl;
+}
+
+.profiles .close {
+    position: absolute;
+    left: 0;
+}
+
+.profiles .modal-body {
+    text-align: right;
+    font-size: 16px;
+}
+
+.profilesEdit .modal {
+    direction: rtl;
+}
+
+.profilesEdit .close {
+    position: absolute;
+    left: 0;
+}
+
+.profilesEdit .modal-body {
+    text-align: right;
+    font-size: 16px;
+}
+
+/* tickets */ 
+
+.view {
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+}
+
+.viewStatus ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.viewStatus h3 {
+    text-align: center;
+}
+
+.viewStatus strong {
+    font-size: 18px;
+}
+
+.viewStatus {
+    text-align: right;
+    direction: rtl;
+    padding: 28px !important;
+    background-color: #eee;
+    border: #444 solid 1px;
+    color: #555;
+    font-size: 17px;
+    width: 200px;
+    position: fixed;
+    line-height: 2;
+    word-break: break-word;
+}
+
+.viewHeader {
+    display: flex;
+    background-color: #444;
+    color: #FFF;
+    padding: 10px 10px 2px 0;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.viewBody {
+    background-color: #fff;
+    padding: 10px;
+    border: solid 2px #444;
+}
+
+.viewBody p {
+    margin: 0;
+    word-break: break-word;
+}
+
+.comment {
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    margin-top: 10px;
+}
+
+.commentHeader {
+    display: flex;
+    background-color: #444;
+    color: #FFF;
+    padding: 10px 10px 2px 0;
+}
+
+.commentBody {
+    background-color: #fff;
+    padding: 10px;
+    border: solid 2px #444;
+    word-break: break-word;
+}
+
+.commentBody p {
+    margin: 0;
+}
+
+.addComment {
+    text-align: right !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    direction: rtl !important;
+    margin-top: 10px !important;
+    background-color: #FFF !important;
+    border: solid #444 2px !important;
+    font-size: 17px !important;
+}
+
+.addCommentBtn {
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    margin-top: 10px;
+}
+
+.addCommentBtn .btn {
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin: 0;
+    border: 2px #343a40 solid;
+}
+
+.send {
+    float: right;
+    margin-bottom: 7px;
+}
+
+#commentLog {
+    float: right;
+}
+
+.is-invalid {
+    border-color: #da542e !important;
+}
+
+.viewStatus .btn {
+    margin: 12px 34px 0 0;
+    width: 60px;
+}
+
+.profileEdit {
+    direction: rtl;
+    width: 78%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.profileEdit .card-title{
+    float: right;
+    font-size: 26px;
+    margin-bottom: 40px !important;
+}
+
+.profileEdit .btn{
+    float: right;
+}
+
+.profileEdit input {
+    text-align: left;
+    width: 70%;
+}
+
+@media (max-width: 576px) {
+    
+    .profileEdit input {
+        width: 100%;
+    }
+    
+}
+
+.profileEdit label {
+    font-size: 19px;
+}
+
+.imgChangeBtn {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px #111 solid;
+    background-color: #FFF;
+    outline: none !important;
+    float: right;
+    cursor: pointer;
+}
+
+.imgChange {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px #111 solid;
+    background-color: #FFF;
+    outline: none !important;
+    float: right;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.account-icon {
+    font-size: 25px;
+    line-height: 2.5 !important;
+}
+
+.account-icon:hover {
+    color: #FFF;
+}
+
+.profile {
+    direction: rtl;
+    text-align: right;
+    font-size: 24px;
+    line-height: 1.8;
+    list-style: none;
+    font-family: monospace;
+}
+
+/* news */
+
+.news-list {
+    direction: rtl;
+    text-align: right;
+}
+
+.news-block {
+    margin: 5px 0 5px 0;
+    word-break: break-all;
+}
+
+.ql-editor {
+    text-align: right !important;
+    height: 220px !important;
+}
+
+.ql-toolbar {
+    text-align: right;
+}
+
+.ql-container {
+    height: auto !important;
+    margin-bottom: 15px !important;
+}
+
+.news-title {
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.news-title-label, .general-title-label {
+    float: right;
+    margin-top: 10px;
+}
+
+.news-submit {
+    margin-bottom: 10px;
+}
+
+.news-delete {
+    border-radius: 10px !important;
+    color: #FFF !important;
+    margin-top: 8px;
+    width: 50px;
+    height: 30px;
+    line-height: 0.9 !important;
+    margin-right: 16px;
+}
+
+@media (max-width: 1340px) {
+    .table-mobile td {
+        display: block;
+    }
+    
+    .table-mobile thead {
+        display: none;
+    }
+    
+    .table-mobile {
+        word-break: break-all;
+    }
+    
+    .table-mobile-space {
+        background-color: #FFF !important;
+        height: 25px;
+        display: block !important;
+    }
+    
+    .table-mobile-space-active {
+        background-color: #EEE !important;
+        height: 25px;
+        display: block !important;
+    }
+    
+    .table-mobile td{
+        text-align: left;
+    }
+    
+    .table-mobile td strong {
+        display: block !important;
+    }
+}
+
+.table-mobile-space {
+    display: none; 
+}
+
+.table-mobile td strong {
+    display: none;
+    float: right;
+}
+
+
+/* Sections show */
+
+.sectionsShow .card {
+    width: 14rem;
+    background-color: #111;
+    border: 3px solid #111;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.sectionsShow .card-body {
+    background-color: #111;
+}
+
+.sectionsShow .card-title {
+    font-size: 22px;
+    color: #FFF;
+    text-align: center;
+}
+
+.sectionsShow .card-text {
+    color: #999;
+    text-align: center;
+}
+
+.sectionsShow .card-img-top {
+    object-fit: cover;
+    height: 250px;
+    cursor: pointer;
+}
+
+.sectionsShow .btn {
+    margin-top: 10px;
+    display: block !important;
+    width: 120px;
+}
+
+.sectionsShow .card-options {
+    width: 218px;
+    height: auto;
+    bottom: 172px;
+    padding: 10px;
+    position: relative;
+    display: none;
+}
+
+.sectionsShow .card-img, .joinShows .card-img {
+    width: 218px;
+    height: 250px;
+}
+
+.sectionsShow .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    clear: float;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    display: none;
+}
+
+.sections-row {
+    padding: 80px;
+}
+
+.container-fluid .sectionAdd {
+    float: right;
+}
+
+/* section create */
+
+.sectionCreate {
+    direction: rtl;
+    width: 78%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.sectionCreate .card-title{
+    float: right;
+    font-size: 26px;
+    margin-bottom: 40px !important;
+}
+
+.sectionCreate .btn{
+    float: right;
+}
+
+.sectionCreate input {
+    text-align: left;
+    width: 70%;
+}
+
+@media (max-width: 576px) {
+    
+    .sectionCreate input {
+        width: 100%;
+    }
+    
+}
+
+.sectionCreate label {
+    font-size: 19px;
+}

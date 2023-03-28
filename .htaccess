@@ -1,0 +1,13 @@
+ErrorDocument 404 http://localhost/eSportWebsite/404.php
+ErrorDocument 500 http://localhost/eSportWebsite/500.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /404.php [L]
+
+RewriteCond %{REQUEST_URI} ^/500/$
+RewriteRule ^(.*)$ /500.php [L]
+
+IndexIgnore *
